@@ -71,7 +71,7 @@ body{
     position: fixed;
     top:100px;
     z-index: 1;
-    animation: anim_nav 2s;
+    animation: anim_nav 0.9s;
 }
 @keyframes anim_nav{
     0%{

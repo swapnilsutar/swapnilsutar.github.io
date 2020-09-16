@@ -21,10 +21,19 @@
             open_nav_bar.style.display="block";
             open_tog.style.display="none";
             close_tog.style.display="block";
+            $(open_nav_bar).animate({top:"100px"});
+
     }
   
      function close_nav(){
-            open_nav_bar.style.display="none";
-            open_tog.style.display="block";
-            close_tog.style.display="none";
+            // open_nav_bar.style.display="none";
+            // open_tog.style.display="block";
+            // close_tog.style.display="none";
+
+            $(open_nav_bar).animate({top:"-250px"});
+            $(open_nav_bar).hide(1000);
+            $(close_tog).hide(1000);
+            $(open_tog).show(1000);
+
+
     }
