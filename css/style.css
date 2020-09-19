@@ -282,6 +282,14 @@ li a:hover{
     white-space: nowrap;
 }
 
+footer{
+    color: white;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    font-style: italic;
+}
+
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 16px rgba(0,0,0,0.3);
